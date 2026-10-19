@@ -140,8 +140,10 @@ details p { margin: 12px 0 0; color: var(--aubergine-soft); }
 
 /* Footer */
 .footer { padding: 56px 0; border-top: 1px solid rgba(61, 14, 24, .1); }
-.footer-inner { display: flex; justify-content: space-between; align-items: center; gap: 24px; flex-wrap: wrap; }
-.footer-logo { height: 28px; width: auto; }
+.footer-top { display: flex; justify-content: space-between; align-items: center; gap: 32px; flex-wrap: wrap; }
+.footer-brand { display: flex; flex-direction: column; gap: 14px; }
+.footer-bottom { display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; margin-top: 40px; padding-top: 20px; border-top: 1px solid rgba(61, 14, 24, .1); }
+.footer-logo { height: 28px; width: auto; align-self: flex-start; }
 .footer p { margin: 0; font-size: 15px; }
 
 /* Responsive */
@@ -224,9 +226,10 @@ details p { margin: 12px 0 0; color: var(--aubergine-soft); }
 .partner-logos { display: flex; align-items: center; gap: 48px; flex-wrap: wrap; }
 .logo-talents { height: 22px; width: auto; }
 .logo-unisg { height: 44px; width: auto; }
-.footer-partners { display: flex; align-items: center; gap: 24px; }
-.footer-partners img:first-child { height: 14px; width: auto; }
-.footer-partners img:last-child { height: 30px; width: auto; }
+.footer-partners { display: flex; align-items: flex-end; gap: 28px; }
+.fp-talents { height: 18px; width: auto; }
+.fp-unisg { height: 40px; width: auto; }
+.fp-divider { width: 1px; height: 40px; background: rgba(61, 14, 24, .2); }
 
 @media (max-width: 760px) {
   .partners-inner { flex-direction: column; align-items: flex-start; }
