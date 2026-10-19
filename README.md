@@ -1,6 +1,6 @@
 # mentHERship
 
-Static website for mentHERship — a Best Talents Programme project connecting female university students in Kazakhstan with mentors from Switzerland.
+Static website for mentHERship, a Best Talents Programme project connecting female university students in Kazakhstan with female mentors from Switzerland.
 
 ## Edit
 - Content: `index.html`
