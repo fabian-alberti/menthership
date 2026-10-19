@@ -216,3 +216,22 @@ details p { margin: 12px 0 0; color: var(--aubergine-soft); }
   .upcoming { padding: 24px 22px; }
   .upcoming .btn { white-space: nowrap; }
 }
+
+/* ---- Partners ---- */
+.partners { border-top: 1px solid rgba(61, 14, 24, .1); border-bottom: 1px solid rgba(61, 14, 24, .1); padding: 28px 0; position: relative; z-index: 1; background: var(--thistle); }
+.partners-inner { display: flex; align-items: center; justify-content: space-between; gap: 24px 40px; flex-wrap: wrap; }
+.partners-label { margin: 0; font-size: 13px; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: var(--aubergine-soft); }
+.partner-logos { display: flex; align-items: center; gap: 48px; flex-wrap: wrap; }
+.logo-talents { height: 22px; width: auto; }
+.logo-unisg { height: 44px; width: auto; }
+.footer-partners { display: flex; align-items: center; gap: 24px; }
+.footer-partners img:first-child { height: 14px; width: auto; }
+.footer-partners img:last-child { height: 30px; width: auto; }
+
+@media (max-width: 760px) {
+  .partners-inner { flex-direction: column; align-items: flex-start; }
+  .partners-label { max-width: 100%; }
+  .partner-logos { gap: 32px; }
+  .logo-talents { height: 18px; }
+  .logo-unisg { height: 36px; }
+}
